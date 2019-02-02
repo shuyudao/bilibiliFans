@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Bilibili 实时粉丝状况</title>
+	<link rel="stylesheet" href="./css.css">
+</head>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<body>
+	<div id="get_uid">
+		<h2 style="margin-top: 60px;font-size: 46px;">Bilibili 实时粉丝状况</h2>
+		<div id="get_uid_main">
+			<h2>请输入UP的UID</h2>
+			<form action="#">
+				<input id="uid" type="text" placeholder="UID">
+			</form>
+			<div id="button">查看</div>
+		</div>
+	</div>
+	<div id="fans">
+		<h1>Bilibili 实时粉丝状况</h1>
+		<div id="info">
+			<a id="b_link" href=""><div id="face"><img id="img" src="http://static.hdslb.com/images/member/noface.gif" alt=""></div></a>
+			<div id="info_name">
+				<p><b id="name">获取中...</b><span id="lv">...</span><span id="vip">...</span></p>
+				<p id="des">...</p>
+			</div>
+		</div>
+		<div id="up_fans">
+			<p id="fans_count">获取中</p>
+		</div>
+	</div>
+	<footer>Copyright©2019 术与道 All Rights Reserved. MIT License</footer>
+</body>
+</html>
+<script type="text/javascript" src="./js.js"></script>
